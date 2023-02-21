@@ -49,7 +49,7 @@ nav{
 /* banner styles */
 .banner-title-wrap{
     width: 650px;
-    margin-top: 60px;
+    margin-top: 95px;
     margin-bottom: 30px;
 }
 .banner-title{
@@ -82,7 +82,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin: 60px 0 70px 80px;
+    margin: 60px 0 70px 90px;
     
 }
 .quick-feature-image{
@@ -96,7 +96,7 @@ nav{
     height: 300px;
 }
 .quick-feature-info{
-    width: 510px;
+    width: 480px;
     margin-left: 45px;
 }
 .quick-feature-title{
@@ -120,3 +120,78 @@ nav{
 .feature-color{
     color: #FF900E;
 }
+
+/* main feature section styles */
+.main-feature{
+    display: flex;
+    margin: 0 60px 80px 60px;
+}
+.main-feature-info{
+    width: 450px;
+    margin-top: 15px;
+}
+.main-feature-info-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+    border-left: 3px solid #FF900E;
+    padding-left: 25px
+
+}
+.second-info{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin: 15px 0 15px 0;
+    border-radius: 8px;
+    padding: 20px;
+}
+.second-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #131313;
+}
+.first-description{
+    margin-top: 20px;
+}
+.main-feature-info-description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+    margin-top: 10px;
+}
+.main-feature-banner-container{
+    width: 600px;
+    height: 874px;
+    
+}
+.background-image{
+    background-image: url('../images/architect.png');
+    width: 578px;
+    height: 852px;
+    background-position: bottom right;
+    margin-right: 0;
+    border-radius: 8px;
+} 
+
+.main-feature-banner-container p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #FFFFFF;
+    background: #FF900E;
+    text-align: center;
+    padding: 30px 45px 0px 30px;
+    border-radius: 8px;
+    width: 200px;
+    height: 100px;
+}
+.experience{
+    margin-left: -40px;
+    margin-top: -75px; 
+    display: inline-block;  
+}
+.ten-year{
+    font-size: 60px;
+    font-weight: 700;
+}
+
